@@ -6,7 +6,8 @@
 
     <groupId>org.jetbrains.research</groupId>
     <artifactId>descriptor</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <version>1.1</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -51,5 +52,12 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>bintray-abdullin-maven</id>
+            <name>abdullin-maven</name>
+            <url>https://api.bintray.com/maven/abdullin/maven/descriptor/;publish=1</url>
+        </repository>
+    </distributionManagement>
 
 </project>
