@@ -1,13 +1,13 @@
-package org.jetbrains.research.kex.descriptor;
+package org.jetbrains.research.descriptor;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public abstract class Desc {
+public abstract class Descriptor {
     abstract public String getName();
     abstract public String getType();
 
-    abstract protected String print(Map<Desc, String> visited);
+    abstract protected String print(Map<Descriptor, String> visited);
     public String print() {
         return print(new HashMap<>());
     }

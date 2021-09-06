@@ -1,11 +1,11 @@
-package org.jetbrains.research.kex.descriptor;
+package org.jetbrains.research.descriptor;
 
 import java.util.Map;
 
-public class NullDesc extends Desc {
+public class NullDescriptor extends Descriptor {
     private String name;
     
-    public NullDesc(String name) {
+    public NullDescriptor(String name) {
         this.name = name;
     }
     
@@ -20,7 +20,7 @@ public class NullDesc extends Desc {
     }
 
     @Override
-    protected String print(Map<Desc, String> visited) {
+    protected String print(Map<Descriptor, String> visited) {
         return "";
     }
 }

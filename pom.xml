@@ -7,7 +7,7 @@
     <groupId>org.jetbrains.research</groupId>
     <artifactId>descriptor</artifactId>
     <packaging>jar</packaging>
-    <version>1.1</version>
+    <version>1.2.0</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -42,7 +42,7 @@
 
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
-                <version>2.5.5</version>
+                <version>2.6</version>
                 <configuration>
                     <descriptors>
                         <descriptor>assembly.xml</descriptor>
@@ -54,9 +54,9 @@
 
     <distributionManagement>
         <repository>
-            <id>bintray-abdullin-maven</id>
-            <name>abdullin-maven</name>
-            <url>https://api.bintray.com/maven/abdullin/maven/descriptor/;publish=1</url>
+            <id>github-vorpal-research-kotlin-maven</id>
+            <name>vorpal-research-kotlin-maven</name>
+            <url>https://maven.pkg.github.com/vorpal-research/kotlin-maven</url>
         </repository>
     </distributionManagement>
 

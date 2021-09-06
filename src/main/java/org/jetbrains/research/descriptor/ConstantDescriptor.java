@@ -1,12 +1,12 @@
-package org.jetbrains.research.kex.descriptor;
+package org.jetbrains.research.descriptor;
 
 import java.util.Map;
 
-public class ConstantDesc extends Desc {
+public class ConstantDescriptor extends Descriptor {
     private final String value;
     private final String type;
 
-    public ConstantDesc(String value, String type) {
+    public ConstantDescriptor(String value, String type) {
         this.value = value;
         this.type = type;
     }
@@ -22,7 +22,7 @@ public class ConstantDesc extends Desc {
     }
 
     @Override
-    protected String print(Map<Desc, String> visited) {
+    protected String print(Map<Descriptor, String> visited) {
         return "";
     }
 }

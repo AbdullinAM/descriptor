@@ -1,4 +1,4 @@
-package org.jetbrains.research.kex.descriptor;
+package org.jetbrains.research.descriptor;
 
 import java.util.Objects;
 
